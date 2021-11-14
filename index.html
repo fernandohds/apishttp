@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador Online</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crete+Round&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+</head>
+<body class="bg-info">
+  <header>
+    
+   
+  </header>
+  <section class="form-register">
+    <form id=frm>
+    <h4>Complete los siguientes datos para realizar su cotización</h4>
+    <input class="controls" type="text" value="" name="marca" id="marca" placeholder="Ingrese la marca de su vehiculo">
+    <input class="controls" type="number" value="" name="anio" id="anio" placeholder="Ingrese el año de su vehiculo">
+    <input class="controls" type="number" value="" name="telefono" id="telefono" placeholder="Ingrese su número de teléfono">
+    <input class="controls" type="email" value="" name="correo" id="correo" placeholder="Ingrese su correo electrónico">
+    <input class="controls" type="text" value="" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido">
+    <select class="controls" id="compa"></select>
+    <input class="botons" type="submit" id="btnSubmit"  value="Cotizar" >
+    
+  </form>
+  </section>
+  <br>
+  <div id="displayTodos"></div>
+  <div class="losDatos" id="datosAuto"></div>
+
+  
+  
+
+  <footer > 
+   
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="./libs/sweetalert2.all.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

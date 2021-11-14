@@ -1,0 +1,65 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+
+  .letraFormulario {
+    color: white;
+  }
+  .form-register {
+    width: 50vw;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+  }
+  h4 {
+      font-size: 22px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  p {
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 40px;
+    }
+  a {color: white;      
+  }    
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .elSelect {
+    text-align: center;
+  }
+ /* .losDatos {
+  margin: auto;
+  align-content: center;
+ } */
